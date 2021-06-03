@@ -23,10 +23,6 @@ class CatClientApplicationTests {
 	@Autowired
 	private CatClient client;
 
-	@Autowired
-	private ConfigurableEnvironment environment;
-
-
 
 	@Test
 	void contextLoads() {

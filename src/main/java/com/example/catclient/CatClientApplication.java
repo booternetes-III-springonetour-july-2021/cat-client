@@ -9,6 +9,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class CatClientApplication {
 
+
 	@Bean
 	RestTemplate restTemplate(RestTemplateBuilder restTemplateBuilder) {
 		return restTemplateBuilder.build();
