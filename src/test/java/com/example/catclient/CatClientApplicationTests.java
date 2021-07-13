@@ -18,9 +18,8 @@ class CatClientApplicationTests {
     private CatClient client;
 
     @Test
-    void contextLoads() {
+    void clientShouldCallAndReturnCat() {
         var result = this.client.getCatByName("Toby");
         Assertions.assertEquals(result.getName(), "Toby");
-
     }
 }
